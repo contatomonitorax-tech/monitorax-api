@@ -8,7 +8,6 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api', (req, res) => {
-
   const status = req.query.status;
   const bateria = req.query.bateria;
 
